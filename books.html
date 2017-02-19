@@ -1,10 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:required="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Books Library</title>
+    <link rel="stylesheet" type="text/css" href="styles/books.css"/>
+    <script type="javascript" src="scripts/jquery-3.1.1.min.js"></script>
+    <script type="javascript" src="scripts/books-library.js"></script>
+
 </head>
 <body>
-
+<header id="menu">
+    <a href="" id="linkHome">Home</a>
+    <a href="" id="linkLogin">Home</a>
+    <a href="" id="linkRegister">Register</a>
+    <a href="" id="linkListBooks">List Books</a>
+    <a href="" id="linkCreateBook">Create Book</a>
+    <a href="" id="linkLogout">Logout</a>
+</header>
+<main>
+    <section id="loadingBox">Loading....</section>
+    <section id="infoBox">Info</section>
+    <section id="errorBox">Error</section>
+    <section id="viewHome">
+        <h1>Welcome</h1>
+        <div>Welcome to my bool library.</div>
+    </section>
+    <section id="viewLogin">
+        <h1>Pleas login</h1>
+        <form id="loginForm">
+            <div>Username:</div>
+            <div id="div1"><input type="text" id="loginUsername" required="true"/></div>
+            <div>Password:</div>
+            <div><input type="password" id="loginPass" required="true"/></div>
+            <div><input type="submit" id="buttonLoginButton" value="Login"/></div>
+        </form>
+    </section>
+    <section id="viewRegister">
+        <h1>Please register</h1>
+        <form id="registerForm">
+            <div>Username:</div>
+            <div><input type="text" id="registerUsername" required="true"/></div>
+            <div>Password:</div>
+            <div><input type="password" id="registerPass" required="true"/></div>
+            <div>Password again:</div>
+            <div><input type="password" id="registerPass2" required="true"/></div>
+            <div><input type="submit" id="buttonRegisterButton" value="Register"/></div>
+        </form>
+    </section>
+    <section id="viewBooks">
+        <h1>Books listing</h1>
+        <div id="books">
+            No books.
+        </div>
+    </section>
+    <section id="viewCreatBook">
+        <h1>Creat new Book</h1>
+        <form id="formCreateBook">
+            <div>Title:</div>
+            <div><input type="text" id="bookTitle" required="true"/></div>
+            <div>Author:</div>
+            <div><input type="text" id="bookAuthot" required="true"/></div>
+            <div>Description:</div>
+            <div><textarea id="booksDescription" rows="10"></textarea></div>
+            <div><input type="submit" id="buttonCreateBook" value="Create Book"/></div>
+        </form>
+    </section>
+</main>
+<footer>
+   (c) Books-Library by Zahary Todorov
+</footer>
 </body>
 </html>

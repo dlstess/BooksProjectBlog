@@ -1,0 +1,29 @@
+header{
+background: #DDD;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 3px;
+}
+header a{
+    text-decoration: none;
+
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 3px;
+
+}
+header a:hover{
+    background-color: #AAA;
+}
+input {
+    background-color: beige;
+}
+#buttonCreateBook{
+    background-color: #DDDDDD;
+}
+#buttonLoginButton{
+    background-color: #DDDDDD;
+}
+#buttonRegisterButton{
+    background-color: #DDDDDD;
+}
