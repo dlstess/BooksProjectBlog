@@ -27,3 +27,16 @@ input {
 #buttonRegisterButton{
     background-color: #DDDDDD;
 }
+#booksDescription{
+
+}
+#bookAuthor{
+
+}
+footer{
+    background: #DDD;
+    padding: 3px;
+    text-align: center;
+    margin-top: 5px;
+    border-radius: 3px;
+}

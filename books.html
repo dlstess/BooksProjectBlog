@@ -11,7 +11,7 @@
 <body>
 <header id="menu">
     <a href="" id="linkHome">Home</a>
-    <a href="" id="linkLogin">Home</a>
+    <a href="" id="linkLogin">Login</a>
     <a href="" id="linkRegister">Register</a>
     <a href="" id="linkListBooks">List Books</a>
     <a href="" id="linkCreateBook">Create Book</a>
@@ -32,8 +32,20 @@
             <div id="div1"><input type="text" id="loginUsername" required="true"/></div>
             <div>Password:</div>
             <div><input type="password" id="loginPass" required="true"/></div>
-            <div><input type="submit" id="buttonLoginButton" value="Login"/></div>
+            <div><input type="submit" id="buttonLoginButton" onclick="login()" value="Login"/></div>
         </form>
+        Photos Chine : pratique du tai-chi en Mongolie intérieure
+        Des personnes pratiquent le tai-chi dans un parc au lever du soleil à Hohhot, dans la région autonome de... »
+        CHINE NOUVELLE
+        Photos Syrie : lancement des nouvelles voitures à Damas
+        La Khallouf Trading Company a lancé samedi deux nouvelle voitures, la berline DFM S50 et le DFM AX7 VUS, qui... »
+        CHINE NOUVELLE
+        Photos Chine : paysage d'une zone humide du lac Dianchi à Kunming
+        Paysage d'un parc dans une zone humide du site touristique du lac Dianchi à Kunming, capitale de la province... »
+        CHINE NOUVELLE
+        Photos Chine : librairie Xinhua à Hefei
+        Des clients dans une librairie Xinhua à Hefei, capitale de la province chinoise de l'Anhui (est),... »
+        CHINE NOUVELLE
     </section>
     <section id="viewRegister">
         <h1>Please register</h1>
@@ -44,7 +56,7 @@
             <div><input type="password" id="registerPass" required="true"/></div>
             <div>Password again:</div>
             <div><input type="password" id="registerPass2" required="true"/></div>
-            <div><input type="submit" id="buttonRegisterButton" value="Register"/></div>
+            <div><input type="submit" id="buttonRegisterButton" onclick="loginClick()" value="Register"/></div>
         </form>
     </section>
     <section id="viewBooks">
@@ -59,7 +71,7 @@
             <div>Title:</div>
             <div><input type="text" id="bookTitle" required="true"/></div>
             <div>Author:</div>
-            <div><input type="text" id="bookAuthot" required="true"/></div>
+            <div><input type="text" id="bookAuthor" required="true"/></div>
             <div>Description:</div>
             <div><textarea id="booksDescription" rows="10"></textarea></div>
             <div><input type="submit" id="buttonCreateBook" value="Create Book"/></div>
